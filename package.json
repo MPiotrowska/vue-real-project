@@ -7,6 +7,21 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "editor.formatOnSave": true,
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "vetur.format.defaultFormatter.html": "none",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.inlineSuggest.enabled": true,
+  "editor.cursorBlinking": "smooth",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
